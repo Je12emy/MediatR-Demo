@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorUI", "BlazorUI\BlazorUI.csproj", "{356F3055-EB3B-4C66-951F-2C41E005A7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{6C3B2254-B32E-4915-A21A-5954F75B648F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356F3055-EB3B-4C66-951F-2C41E005A7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356F3055-EB3B-4C66-951F-2C41E005A7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356F3055-EB3B-4C66-951F-2C41E005A7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356F3055-EB3B-4C66-951F-2C41E005A7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3B2254-B32E-4915-A21A-5954F75B648F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3B2254-B32E-4915-A21A-5954F75B648F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3B2254-B32E-4915-A21A-5954F75B648F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3B2254-B32E-4915-A21A-5954F75B648F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

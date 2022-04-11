@@ -1,0 +1,20 @@
+@page "/"
+@using DemoLibrary.Models
+
+<PageTitle>Index</PageTitle>
+<ul>
+    @foreach (var p in people)
+    {
+        <li> @p.FirstName @p.LastName </li>
+    }
+</ul>
+
+@code {
+    List<PersonModel> people;
+    protected override Task OnInitializedAsync()
+    {
+        throw new NotImplementedException();
+        // Get list of people
+    }
+
+}
