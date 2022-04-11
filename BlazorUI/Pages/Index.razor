@@ -1,5 +1,5 @@
 @page "/"
-@using DemoLibrary.Models
+@inject MediatR.IMediator _mediator
 
 <PageTitle>Index</PageTitle>
 <ul>
@@ -11,10 +11,8 @@
 
 @code {
     List<PersonModel> people;
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        throw new NotImplementedException();
-        // Get list of people
+        people = await _mediator.Send(new GetPersonListQuery());
     }
-
 }
