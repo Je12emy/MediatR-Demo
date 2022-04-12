@@ -21,4 +21,10 @@ public class PersonController : Controller
     {
         return await _mediator.Send(new GetPersonListQuery());
     }
+
+    [HttpGet("{id}")]
+    public async Task<PersonModel> Get(int id)
+    {
+        return await _mediator.Send(new GetPersonByIdQuery(id));
+    }
 }
